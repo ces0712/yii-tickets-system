@@ -39,9 +39,9 @@ return array(
 			'generatorPaths' => array(
 			'ext.giix-core',	
 		),
-			'password'=>'Cantv00',
+			'password'=>'',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('*','::1'),
+			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 	),
 
@@ -75,17 +75,6 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			//'connectionString' => 'pgsql:host=161.196.29.237;port=5489;dbname=mercal_cortijos',
-			//'emulatePrepare' => true,
-			//'username' => 'cortijos',
-			//'password' => 'adm_c0rtijos14#--',
-
-			//'connectionString' => 'pgsql:host=127.0.0.1;port=5432;dbname=tuticket',
-			//'emulatePrepare' => true,
-			//'username' => 'postgres',
-			'password' => 'postgres',
-
-			// 'connectionString' => 'pgsql:host=10.70.203.17;port=5432;dbname=tuticket',
 			'connectionString' => 'pgsql:host=172.18.0.2;port=5432;dbname=tuticket2',
 			//'emulatePrepare' => true,
 			'username' => 'postgres',
